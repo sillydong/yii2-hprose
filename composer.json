@@ -1,0 +1,21 @@
+{
+    "name": "sillydong/yii2-hprose",
+    "description": "simple way to use hprose",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","hprose"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Chen.Zhidong",
+            "email": "njutczd@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sillydong\\hprose\\": ""
+        }
+    }
+}
