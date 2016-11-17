@@ -25,7 +25,14 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \sillydong\hprose\AutoloadExample::widget(); ?>```
+create a component in yii config
+```
+return [
+    'components'=>[
+        'someservice'=>[
+            'class'=>'sillydong\hprose\Service',
+            'urls'=>['127.0.0.1:11111','127.0.0.1:22222']
+        ]
+    ]
+]
+```
